@@ -9,7 +9,7 @@ var/list/holder_mob_icon_cache = list()
 	show_messages = 1
 
 	sprite_sheets = list(
-		"Teshari" = 'icons/mob/species/seromi/head.dmi',
+		"Avali" = 'icons/mob/species/seromi/head.dmi',
 		"Vox" = 'icons/mob/species/vox/head.dmi'
 		)
 

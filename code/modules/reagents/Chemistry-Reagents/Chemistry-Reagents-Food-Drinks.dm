@@ -67,8 +67,8 @@
 		if(IS_SKRELL)
 			M.adjustToxLoss(0.5 * removed)
 			return
-		if(IS_TESHARI)
-			..(M, alien, removed*1.2) // Teshari get a bit more nutrition from meat.
+		if(IS_AVALI)
+			..(M, alien, removed*1.2) // Avali get a bit more nutrition from meat.
 			return
 		if(IS_UNATHI)
 			..(M, alien, removed*2.25) //Unathi get most of their nutrition from meat.

@@ -83,30 +83,30 @@
 	..()
 	gear_tweaks = list(gear_tweak_free_color_choice)
 
-/datum/gear/uniform/teshari
-	display_name = "smock, grey (Teshari)"
+/datum/gear/uniform/avali
+	display_name = "smock, grey (Avali)"
 	path = /obj/item/clothing/under/seromi
-	whitelisted = "Teshari"
+	whitelisted = "Avali"
 	sort_category = "Xenowear"
 
-/datum/gear/uniform/teshari/jumpsuit
-	display_name = "smock, yellow (Teshari)"
+/datum/gear/uniform/avali/jumpsuit
+	display_name = "smock, yellow (Avali)"
 	path = /obj/item/clothing/under/seromi/yellow
 
-/datum/gear/uniform/teshari/jumpsuit/red
-	display_name = "smock, red (Teshari)"
+/datum/gear/uniform/avali/jumpsuit/red
+	display_name = "smock, red (Avali)"
 	path = /obj/item/clothing/under/seromi/red
 
-/datum/gear/uniform/teshari/jumpsuit/white
-	display_name = "smock, white (Teshari)"
+/datum/gear/uniform/avali/jumpsuit/white
+	display_name = "smock, white (Avali)"
 	path = /obj/item/clothing/under/seromi/white
 
-/datum/gear/uniform/teshari/jumpsuit/medical
-	display_name = "smock, Medical (Teshari)"
+/datum/gear/uniform/avali/jumpsuit/medical
+	display_name = "smock, Medical (Avali)"
 	path = /obj/item/clothing/under/seromi/medical
 
-/datum/gear/uniform/teshari/jumpsuit/rainbow
-	display_name = "smock, rainbow (Teshari)"
+/datum/gear/uniform/avali/jumpsuit/rainbow
+	display_name = "smock, rainbow (Avali)"
 	path = /obj/item/clothing/under/seromi/rainbow
 
 /datum/gear/mask/ipc_monitor

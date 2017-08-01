@@ -39,7 +39,7 @@ var/const/standard_monitor_styles = "blank=ipc_blank;\
 	var/unavailable_to_build							 // If set, can't be constructed.
 	var/lifelike										 // If set, appears organic.
 	var/blood_color = "#030303"
-	var/list/species_cannot_use = list("Teshari")
+	var/list/species_cannot_use = list("Avali")
 	var/list/monitor_styles			 		 			 //If empty, the model of limbs offers a head compatible with monitors.
 	var/parts = BP_ALL						 			 //Defines what parts said brand can replace on a body.
 	var/health_hud_intensity = 1						 // Intensity modifier for the health GUI indicator.

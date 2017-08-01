@@ -58,7 +58,7 @@
 	slot = "over"
 
 	sprite_sheets = list(
-		"Teshari" = 'icons/mob/species/seromi/suit.dmi'
+		"Avali" = 'icons/mob/species/seromi/suit.dmi'
 		)
 
 /obj/item/clothing/accessory/poncho/green

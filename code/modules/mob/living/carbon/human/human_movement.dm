@@ -17,7 +17,7 @@
 
 	for(var/datum/modifier/M in modifiers)
 		if(!isnull(M.haste) && M.haste == TRUE)
-			return -3 // Returning -1 will actually result in a slowdown for Teshari.
+			return -3 // Returning -1 will actually result in a slowdown for Avali.
 		if(!isnull(M.slowdown))
 			tally += M.slowdown
 

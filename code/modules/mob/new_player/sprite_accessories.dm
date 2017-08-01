@@ -632,7 +632,7 @@
 		name = "Shaved"
 		icon_state = "bald"
 		gender = NEUTER
-		species_allowed = list("Human","Unathi","Tajara","Skrell", "Machine","Teshari", "Vox")
+		species_allowed = list("Human","Unathi","Tajara","Skrell", "Machine","Avali", "Vox")
 
 	watson
 		name = "Watson Mustache"
@@ -909,76 +909,76 @@
 		icon_state = "hair_fingerwave"
 		species_allowed = list("Tajara")
 
-//Teshari things
-	teshari
-		name = "Teshari Default"
-		icon_state = "teshari_default"
-		species_allowed = list("Teshari")
+//Avali things
+	avali
+		name = "Avali Default"
+		icon_state = "avali_default"
+		species_allowed = list("Avali")
 
-	teshari_altdefault
-		name = "Teshari Alt. Default"
-		icon_state = "teshari_ears"
-		species_allowed = list("Teshari")
+	avali_altdefault
+		name = "Avali Alt. Default"
+		icon_state = "avali_ears"
+		species_allowed = list("Avali")
 
-	teshari_tight
-		name = "Teshari Tight"
-		icon_state = "teshari_tight"
-		species_allowed = list("Teshari")
+	avali_tight
+		name = "Avali Tight"
+		icon_state = "avali_tight"
+		species_allowed = list("Avali")
 
-	teshari_excited
-		name = "Teshari Spiky"
-		icon_state = "teshari_spiky"
-		species_allowed = list("Teshari")
+	avali_excited
+		name = "Avali Spiky"
+		icon_state = "avali_spiky"
+		species_allowed = list("Avali")
 
-	teshari_spike
-		name = "Teshari Spike"
-		icon_state = "teshari_spike"
-		species_allowed = list("Teshari")
+	avali_spike
+		name = "Avali Spike"
+		icon_state = "avali_spike"
+		species_allowed = list("Avali")
 
-	teshari_long
-		name = "Teshari Overgrown"
-		icon_state = "teshari_long"
-		species_allowed = list("Teshari")
+	avali_long
+		name = "Avali Overgrown"
+		icon_state = "avali_long"
+		species_allowed = list("Avali")
 
-	teshari_burst
-		name = "Teshari Starburst"
-		icon_state = "teshari_burst"
-		species_allowed = list("Teshari")
+	avali_burst
+		name = "Avali Starburst"
+		icon_state = "avali_burst"
+		species_allowed = list("Avali")
 
-	teshari_shortburst
-		name = "Teshari Short Starburst"
-		icon_state = "teshari_burst_short"
-		species_allowed = list("Teshari")
+	avali_shortburst
+		name = "Avali Short Starburst"
+		icon_state = "avali_burst_short"
+		species_allowed = list("Avali")
 
-	teshari_mohawk
-		name = "Teshari Mohawk"
-		icon_state = "teshari_mohawk"
-		species_allowed = list("Teshari")
+	avali_mohawk
+		name = "Avali Mohawk"
+		icon_state = "avali_mohawk"
+		species_allowed = list("Avali")
 
-	teshari_pointy
-		name = "Teshari Pointy"
-		icon_state = "teshari_pointy"
-		species_allowed = list("Teshari")
+	avali_pointy
+		name = "Avali Pointy"
+		icon_state = "avali_pointy"
+		species_allowed = list("Avali")
 
-	teshari_upright
-		name = "Teshari Upright"
-		icon_state = "teshari_upright"
-		species_allowed = list("Teshari")
+	avali_upright
+		name = "Avali Upright"
+		icon_state = "avali_upright"
+		species_allowed = list("Avali")
 
-	teshari_mane
-		name = "Teshari Mane"
-		icon_state = "teshari_mane"
-		species_allowed = list("Teshari")
+	avali_mane
+		name = "Avali Mane"
+		icon_state = "avali_mane"
+		species_allowed = list("Avali")
 
-	teshari_droopy
-		name = "Teshari Droopy"
-		icon_state = "teshari_droopy"
-		species_allowed = list("Teshari")
+	avali_droopy
+		name = "Avali Droopy"
+		icon_state = "avali_droopy"
+		species_allowed = list("Avali")
 
-	teshari_mushroom
-		name = "Teshari Mushroom"
-		icon_state = "teshari_mushroom"
-		species_allowed = list("Teshari")
+	avali_mushroom
+		name = "Avali Mushroom"
+		icon_state = "avali_mushroom"
+		species_allowed = list("Avali")
 
 	vox_quills_short
 		name = "Short Vox Quills"
@@ -1050,23 +1050,23 @@
 		species_allowed = list("Unathi")
 
 
-//Teshari things
-	teshari_beard
-		name = "Teshari Beard"
-		icon_state = "teshari_chin"
-		species_allowed = list("Teshari")
+//Avali things
+	avali_beard
+		name = "Avali Beard"
+		icon_state = "avali_chin"
+		species_allowed = list("Avali")
 		gender = NEUTER
 
-	teshari_scraggly
-		name = "Teshari Scraggly"
-		icon_state = "teshari_scraggly"
-		species_allowed = list("Teshari")
+	avali_scraggly
+		name = "Avali Scraggly"
+		icon_state = "avali_scraggly"
+		species_allowed = list("Avali")
 		gender = NEUTER
 
-	teshari_chops
-		name = "Teshari Chops"
-		icon_state = "teshari_gap"
-		species_allowed = list("Teshari")
+	avali_chops
+		name = "Avali Chops"
+		icon_state = "avali_gap"
+		species_allowed = list("Avali")
 		gender = NEUTER
 
 /*

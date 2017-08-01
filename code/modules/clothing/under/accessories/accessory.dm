@@ -14,7 +14,7 @@
 	var/concealed_holster = 0
 	var/mob/living/carbon/human/wearer = null //To check if the wearer changes, so species spritesheets change properly.
 
-	sprite_sheets = list("Teshari" = 'icons/mob/species/seromi/ties.dmi') //Teshari can into webbing, too!
+	sprite_sheets = list("Avali" = 'icons/mob/species/seromi/ties.dmi') //Avali can into webbing, too!
 
 /obj/item/clothing/accessory/Destroy()
 	on_removed()
@@ -41,7 +41,7 @@
 			if("[tmp_icon_state]_mob" in icon_states(icon_override))
 				tmp_icon_state = "[tmp_icon_state]_mob"
 			mob_overlay = image("icon" = icon_override, "icon_state" = "[tmp_icon_state]")
-		else if(wearer && sprite_sheets[wearer.species.get_bodytype(wearer)]) //Teshari can finally into webbing, too!
+		else if(wearer && sprite_sheets[wearer.species.get_bodytype(wearer)]) //Avali can finally into webbing, too!
 			mob_overlay = image("icon" = sprite_sheets[wearer.species.get_bodytype(wearer)], "icon_state" = "[tmp_icon_state]")
 		else
 			mob_overlay = image("icon" = INV_ACCESSORIES_DEF_ICON, "icon_state" = "[tmp_icon_state]")

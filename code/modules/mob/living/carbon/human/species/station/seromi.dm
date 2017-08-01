@@ -1,6 +1,6 @@
-/datum/species/teshari
-	name = "Teshari"
-	name_plural = "Tesharii"
+/datum/species/avali
+	name = "Avali"
+	name_plural = "Avali"
 	blurb = "A race of feathered raptors who developed alongside the Skrell, inhabiting \
 	the polar tundral regions outside of Skrell territory. Extremely fragile, they developed \
 	hunting skills that emphasized taking out their prey without themselves getting hit. They \
@@ -18,7 +18,7 @@
 	base_color = "#001144"
 	tail = "seromitail"
 	tail_hair = "feathers"
-	reagent_tag = IS_TESHARI
+	reagent_tag = IS_AVALI
 
 	icobase = 'icons/mob/human_races/r_seromi.dmi'
 	deform = 'icons/mob/human_races/r_seromi.dmi'
@@ -93,7 +93,7 @@
 		/mob/living/proc/hide
 		)
 
-/datum/species/teshari/equip_survival_gear(var/mob/living/carbon/human/H)
+/datum/species/avali/equip_survival_gear(var/mob/living/carbon/human/H)
 	..()
 	H.equip_to_slot_or_del(new /obj/item/clothing/shoes/sandal(H),slot_shoes)
 

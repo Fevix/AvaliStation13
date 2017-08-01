@@ -9,3 +9,9 @@ Thumbs.db
 data/
 cfg/
 
+
+config/
+
+html/changelog\.html
+
+html/changelogs/

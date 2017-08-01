@@ -115,7 +115,7 @@
 	throwforce = 2
 	slot_flags = SLOT_EARS
 	sprite_sheets = list(
-		"Teshari" = 'icons/mob/species/seromi/ears.dmi')
+		"Avali" = 'icons/mob/species/seromi/ears.dmi')
 
 /obj/item/clothing/ears/attack_hand(mob/user as mob)
 	if (!user) return
@@ -188,7 +188,7 @@
 	slot_flags = SLOT_GLOVES
 	attack_verb = list("challenged")
 	sprite_sheets = list(
-		"Teshari" = 'icons/mob/species/seromi/gloves.dmi',
+		"Avali" = 'icons/mob/species/seromi/gloves.dmi',
 		"Vox" = 'icons/mob/species/vox/gloves.dmi'
 		)
 
@@ -243,7 +243,7 @@
 	var/on = 0
 
 	sprite_sheets = list(
-		"Teshari" = 'icons/mob/species/seromi/head.dmi',
+		"Avali" = 'icons/mob/species/seromi/head.dmi',
 		"Vox" = 'icons/mob/species/vox/head.dmi'
 		)
 
@@ -346,7 +346,7 @@
 	slot_flags = SLOT_MASK
 	body_parts_covered = FACE|EYES
 	sprite_sheets = list(
-		"Teshari" = 'icons/mob/species/seromi/masks.dmi',
+		"Avali" = 'icons/mob/species/seromi/masks.dmi',
 		"Vox" = 'icons/mob/species/vox/masks.dmi',
 		"Tajara" = 'icons/mob/species/tajaran/mask.dmi',
 		"Unathi" = 'icons/mob/species/unathi/mask.dmi'
@@ -388,9 +388,9 @@
 	slowdown = SHOES_SLOWDOWN
 	force = 2
 	var/overshoes = 0
-	species_restricted = list("exclude","Teshari", "Vox")
+	species_restricted = list("exclude","Avali", "Vox")
 	sprite_sheets = list(
-		"Teshari" = 'icons/mob/species/seromi/shoes.dmi',
+		"Avali" = 'icons/mob/species/seromi/shoes.dmi',
 		"Vox" = 'icons/mob/species/vox/shoes.dmi'
 		)
 
@@ -487,7 +487,7 @@
 	w_class = ITEMSIZE_NORMAL
 
 	sprite_sheets = list(
-		"Teshari" = 'icons/mob/species/seromi/suit.dmi',
+		"Avali" = 'icons/mob/species/seromi/suit.dmi',
 		"Vox" = 'icons/mob/species/vox/suit.dmi'
 		)
 
@@ -526,7 +526,7 @@
 	var/rolled_down = -1 //0 = unrolled, 1 = rolled, -1 = cannot be toggled
 	var/rolled_sleeves = -1 //0 = unrolled, 1 = rolled, -1 = cannot be toggled
 	sprite_sheets = list(
-		"Teshari" = 'icons/mob/species/seromi/uniform.dmi',
+		"Avali" = 'icons/mob/species/seromi/uniform.dmi',
 		"Vox" = 'icons/mob/species/vox/uniform.dmi'
 		)
 

@@ -184,7 +184,7 @@
 	w_class = ITEMSIZE_NORMAL
 	origin_tech = list(TECH_MATERIAL = 1)
 	var/breakouttime = 300	//Deciseconds = 30s = 0.5 minute
-	sprite_sheets = list("Teshari" = 'icons/mob/species/seromi/handcuffs.dmi')
+	sprite_sheets = list("Avali" = 'icons/mob/species/seromi/handcuffs.dmi')
 
 /obj/item/weapon/caution
 	desc = "Caution! Wet Floor!"

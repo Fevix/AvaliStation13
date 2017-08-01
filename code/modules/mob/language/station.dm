@@ -137,7 +137,7 @@
 
 /datum/language/seromi
 	name = LANGUAGE_SCHECHI
-	desc = "A trilling language spoken by the diminutive Teshari."
+	desc = "A trilling language spoken by the diminutive Avali."
 	speech_verb = "chirps"
 	ask_verb = "chirrups"
 	exclaim_verb = "trills"

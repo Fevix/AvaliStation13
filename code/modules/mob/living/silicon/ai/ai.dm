@@ -591,8 +591,8 @@ var/list/ai_verbs_hidden = list( // For why this exists, refer to https://xkcd.c
 				"female unathi",
 				"male tajara",
 				"female tajara",
-				"male tesharii",
-				"female tesharii",
+				"male avali",
+				"female avali",
 				"male skrell",
 				"female skrell"
 			)
@@ -636,9 +636,9 @@ var/list/ai_verbs_hidden = list( // For why this exists, refer to https://xkcd.c
 						holo_icon = getHologramIcon(icon('icons/mob/AI.dmi',"holotajm"))
 					if("female tajara")
 						holo_icon = getHologramIcon(icon('icons/mob/AI.dmi',"holotajf"))
-					if("male tesharii")
+					if("male avali")
 						holo_icon = getHologramIcon(icon('icons/mob/AI.dmi',"holotesm"))
-					if("female tesharii")
+					if("female avali")
 						holo_icon = getHologramIcon(icon('icons/mob/AI.dmi',"holotesf"))
 					if("male skrell")
 						holo_icon = getHologramIcon(icon('icons/mob/AI.dmi',"holoskrm"))
