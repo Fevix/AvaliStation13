@@ -8,10 +8,3 @@ Thumbs.db
 *.backup
 data/
 cfg/
-
-
-config/
-
-html/changelog\.html
-
-html/changelogs/
