@@ -1309,6 +1309,7 @@
 #include "code\modules\clothing\under\jobs\security.dm"
 #include "code\modules\clothing\under\xenos\seromi.dm"
 #include "code\modules\clothing\under\xenos\vox.dm"
+#include "code\modules\customitems\avali_clothing.dm"
 #include "code\modules\customitems\item_spawning.dm"
 #include "code\modules\detectivework\footprints.dm"
 #include "code\modules\detectivework\forensics.dm"
